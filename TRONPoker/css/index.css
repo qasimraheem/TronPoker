@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.poker{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url("../images/carpetOriginal.png") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    height: 1701px;
+    width: 1843px;
+    max-width: 1843px;
+    max-height: 1701px;
+}
+.game{
+    position: relative;
+    height: 71%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carpet{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../images/carpetOriginal.png") no-repeat center center fixed;
+    background-size: cover;
+}
+.floorPattern{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*background-image: url("../images/pattern.png");*/
+    opacity: 0.1;
+}
+:root {
+    --table-margin-left: 24.5%;
+}
+.game-container{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 65.5%;
+    vertical-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background: gold;
+}
+.table{
+    background:url("../images/table.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-size:;*/
+    position: absolute;
+    border: 1px solid yellow;
+    top: 25%;
+   /*//24.5*/
+    /*margin-left:var(--table-margin-left);*/
+    height: 53%;
+    width: 78.3%;
+
+}
+.player-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+:root {
+    --player-path-margin-left: 11.15%;
+}
+.player-path-container{
+    position: absolute;
+    height: 67.1%;
+    width: 77.7%;
+    top: 16.4%;
+    border: 1px solid red;
+    /*//16.5*/
+    /*margin-left:var(--player-path-margin-left);*/
+}
+.points-path{
+    fill: #382828f0;
+    opacity: 0.66;
+}
+.controls{
+    height: 29%;
+    background-image: url("../images/4x/lower-background.png");
+}
+.mystyle1{
+    transform:translate(562px,694px);
+    transition: transform .5s ease-out;
+}
+.mystyle{
+    transform: translate(1244.98px, -66.00px);
+}
